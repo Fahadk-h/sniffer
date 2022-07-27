@@ -77,6 +77,7 @@ func main() {
 
 		count++
 		packetId++
+		//s
 		//monitor real time packet capture on terminal
 		fmt.Println(packet.ApplicationLayer().LayerPayload())
 
