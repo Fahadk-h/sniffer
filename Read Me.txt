@@ -1,0 +1,17 @@
+To run scrip 
+
+1) First cd to project folder
+
+    cd desktop/sniffer_Task
+
+2) build the go project with pack cap
+
+    Go build -o ./packCap
+
+3) list folder, make sure these files are shown
+    go.mod - go.sum - main.go - packCap 
+
+4) run script in terminal with sudo permission
+
+   sudo ./packCap
+
